@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleform.css">
+    <title>Form Biodata Diri_23.11.5625</title>
+</head>
+<script lang="javaScript">
+    function pesan(){
+        alert("Biodata berhasil diinput")
+    }
+</script>
+<body>
+    <form>
+        <fieldset>
+            <legend>
+                <h1>Biodata Diri</h1>
+            </legend>
+            <table>
+                <tr>
+                    <td>Nama Depan</td>
+                    <td><Input type="text" name="Nama_Depan" placeholder="Nama Depan"> </td>
+                </tr>
+                <tr>
+                    <td>Nama Belakang </td>
+                    <td><Input type="text" name="Nama_Belakang" placeholder="Nama Belakang"> </td>
+                </tr>
+                <tr>
+                    <td>Hobi </td>
+                    <td><select name="Hobi">
+                            <option value="pilih hobi">Pilih Hobi</option>
+                            <option value="Olahraga">Olahraga</option>
+                            <option value="Memasak">Memasak</option>
+                            <option value="Belajar">Belajar</option>
+                            <option value="Traveling">Traveling</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin </td>
+                    <td><select name="Jenis Kelamin">
+                            <option value="Jenis Kelamin">Pilih Jenis Kelamin</option>
+                            <option value="Laki-laki">Laki-laki</option>
+                            <option value="Perempuan">Perempuan</option>
+                        </select></td>
+                </tr>
+                <tr>
+                    <td>Email </td>
+                    <td><Input type="text" name="Email" placeholder="Email"> </td>
+                </tr>
+                <tr>
+                    <td>Alamat </td>
+                    <td><textarea name="Alamat"></textarea></td>
+                </tr>
+                <tr>
+                    <td>Nomor Handphone </td>
+                    <td><Input type="text" name="Nomor Handphone" placeholder="Nomor Handphone"> </td>
+                </tr>
+                <tr>
+                    <td colspan="1">
+                        <input type="submit" value="Submit" onclick="pesan()">
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+    </div>
+</body>
+
+</html>
